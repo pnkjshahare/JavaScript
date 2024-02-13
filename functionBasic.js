@@ -11,4 +11,23 @@ function userLoginMessage(username="sam"){
     return `${username} just logged in`
 }
 
-console.log(userLoginMessage());
+// console.log(userLoginMessage());
+
+function addToCart(...num1){
+    return num1;
+}
+
+// console.log(addToCart(10,20,40,100));
+
+
+const myObje={
+    email:"some@gmail.com",
+    name:"pnkj"
+}
+//passing object in function
+function objectPassing(anyobject){
+    console.log(anyobject.email);
+    console.log(anyobject.name);
+}
+
+objectPassing(myObje);
