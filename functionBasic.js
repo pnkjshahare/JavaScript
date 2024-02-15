@@ -24,10 +24,15 @@ const myObje={
     email:"some@gmail.com",
     name:"pnkj"
 }
-//passing object in function
+//passing object in function 
 function objectPassing(anyobject){
     console.log(anyobject.email);
     console.log(anyobject.name);
 }
 
 objectPassing(myObje);
+
+//++++++++++function define+++++++++++++++
+// const myfunction=function(nums){
+//     return num+1;
+// }
