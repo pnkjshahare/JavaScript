@@ -88,7 +88,7 @@ return num>30
 
 
 // Array reduce
-
+// uses in payment gate way
 const shoppingCart=[
     {
         itemName:"c++",
